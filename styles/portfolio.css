@@ -10,7 +10,7 @@ p {
   color: aliceblue;
   font-size: 30px;
 }
-#top-banner {
+.top-banner {
   background: linear-gradient(
     109.8deg,
     rgb(238, 9, 121) 42.8%,
@@ -19,4 +19,20 @@ p {
   width: 100%;
   height: 571px;
   padding: 200px 30px;
+}
+.btn-branding {
+  background-color: rgb(255, 106, 0);
+  color: aliceblue;
+  width: 200px;
+  height: 63px;
+  font-size: 20px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+  border-color: aliceblue;
+}
+.btn-branding:hover {
+  color: rgb(255, 106, 0);
+  background-color: aliceblue;
 }
