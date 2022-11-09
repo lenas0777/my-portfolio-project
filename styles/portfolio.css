@@ -13,8 +13,16 @@ h2 {
   color: rgb(255, 106, 0);
 }
 
-h2.about {
+.content-container h1 {
   margin-top: 150px;
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 106, 0);
+}
+
+.content-container h3 {
+  margin: 20px 0 0;
 }
 
 h3 {
