@@ -31,7 +31,7 @@ h2 {
 
 .nav-container {
   padding: 8px 12px;
-  background-color: aliceblue;
+  background-color: #f8f9fa;
 }
 
 h3 {
@@ -142,6 +142,55 @@ nav a.active {
   color: rgba(0, 0, 0, 0.9);
   font-size: 28px;
   text-decoration: none;
+}
+
+footer .email {
+  text-decoration: none;
+  color: black;
+  margin: 40px;
+}
+
+footer .email:hover {
+  color: rgb(238, 9, 121);
+}
+
+footer h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+}
+
+footer .social-links {
+  margin: 40px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: rgb(238, 9, 121);
+  padding: 10px 16px;
+  font-size: 25px;
+  border-radius: 50%;
+  background: rgb(0, 0, 0, 0.05);
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: rgb(238, 9, 121);
+  transition: all 100ms ease-in-out;
+}
+
+footer .contact-box {
+  background: rgb(0, 0, 0, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+footer .contact-box p {
+  color: rgba(0, 0, 0);
+  font-size: 25px;
+}
+
+footer .btn-branding:hover {
+  border-color: rgb(255, 106, 0);
+  background: white;
 }
 
 @media (max-width: 755px) {
