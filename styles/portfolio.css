@@ -58,6 +58,10 @@ p {
   margin-bottom: 50px;
 }
 
+.col-md-6 a {
+  display: grid;
+  justify-items: center;
+}
 video {
   max-width: 100%;
 }
